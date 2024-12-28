@@ -1,0 +1,12 @@
+[project]
+name = "async-bug"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.11.11",
+    "loguru>=0.7.3",
+    "pytest>=8.3.4",
+    "pytest-asyncio>=0.25.0",
+]
